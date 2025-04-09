@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "vercel-build": "node vercel-build.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.0",
@@ -21,6 +22,7 @@
     "tw-animate-css": "^1.2.5"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^0.1.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.0.0",
