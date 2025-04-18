@@ -2,6 +2,9 @@
 
 A React application that allows users to explore GitHub repositories and analyze commit activity. Built with Vite, TypeScript, and Recharts.
 
+[Live link](https://elegant-blini-81680b.netlify.app/)
+
+
 ## Features
 
 - Search for GitHub users and view their repositories
@@ -55,44 +58,6 @@ npm run dev
 ```
 
 The application will be available at `http://localhost:5173`
-
-## Building for Production
-
-Build the application:
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
-
-## Deployment
-
-### Deploying to Vercel
-
-1. Push your code to GitHub:
-```bash
-git add .
-git commit -m "Initial commit"
-git push
-```
-
-2. Go to [Vercel](https://vercel.com) and sign in with your GitHub account
-
-3. Click "New Project" and select your repository
-
-4. Configure the project:
-   - Framework Preset: Vite
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-   - Install Command: `npm install`
-
-5. Add your environment variables:
-   - Go to Project Settings > Environment Variables
-   - Add `VITE_GITHUB_TOKEN` with your GitHub token
-
-6. Click "Deploy"
-
-Your application will be live in minutes!
 
 ## Environment Variables
 
