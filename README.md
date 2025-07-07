@@ -2,6 +2,9 @@
 
 A React application that allows users to explore GitHub repositories and analyze commit activity. Built with Vite, TypeScript, and Recharts.
 
+![My Image](https://drive.google.com/uc?export=view&id=1qY55uIzLbRmGv9Ertt8moiaBq3zOgDjw)
+
+
 [Live link](https://elegant-blini-81680b.netlify.app/)
 
 
